@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Bryan Gomez
  * * Created on January 10, 2018, 1:07 PM
- * Purpose: Create a CSC/CIS 5 Template
+ * Purpose: to find how many widgets are on the pallet
  */
 
 //System Libraries

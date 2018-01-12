@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Bryan Gomez
  * * Created on January 10, 2018, 6:34 PM
- * Purpose: Create a CSC/CIS 5 Template
+ * Purpose: play a word game
  */
 
 //System Libraries

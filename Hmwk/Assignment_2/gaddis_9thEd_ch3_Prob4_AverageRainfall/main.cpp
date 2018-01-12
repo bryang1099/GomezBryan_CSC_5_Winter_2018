@@ -1,8 +1,8 @@
 /* 
  * File:   main.cpp
  * Author: Bryan Gomez
- * * Created on January 2, 2018, 1:20 PM
- * Purpose: Create a CSC/CIS 5 Template
+ * * Created on January 11, 2018, 8:20 PM
+ * Purpose: Find the average rainfall
  */
 
 //System Libraries

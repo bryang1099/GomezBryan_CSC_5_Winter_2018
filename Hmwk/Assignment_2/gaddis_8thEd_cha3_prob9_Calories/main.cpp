@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Bryan Gomez
  * * Created on January 10, 2018, 12:55 PM
- * Purpose: Create a CSC/CIS 5 Template
+ * Purpose: to tell you how many calories you ate
  */
 
 //System Libraries
