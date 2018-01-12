@@ -35,7 +35,7 @@ int main(int argc, char** argv) {
     //Initialize Variables
     nmbrs=1000;//How many shares
    mps=45.50f;//how much the shares were when he bought them
-   mps2=56.90f;//How muhc he sold them for each
+   mps2=56.90f;//How much he sold them for each
    sbc=0.02f;//Stock broker commission
     
     //Process/Map inputs to outputs
@@ -50,7 +50,7 @@ int main(int argc, char** argv) {
     //Output data
        cout<<setprecision(2)<<fixed<<showpoint<<endl;
     cout<<"Joe paid "<<mps<<"$ per stock or "<<totsp<<"$ Total"<<endl;
-    cout<<"Joe paid "<<util<<"$ of commision"<<endl;
+    cout<<"Joe paid "<<util<<"$ of commission"<<endl;
     cout<<"Joe sold the stock for "<<mps2<<"$ per share or "<<totsp2<<"$ Total"
             <<endl;
     cout<<"Joe paid "<<cmstot<<"$ of commission when he sold the stocks"<<endl;
