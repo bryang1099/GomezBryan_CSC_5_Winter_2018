@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Bryan Gomez
  * * Created on January 11, 2018, 9:15 PM
- * Purpose: Find out how much joe made
+ * Purpose: Find out how much Joe made or lost
  */
 
 //System Libraries
