@@ -1,6 +1,6 @@
 /* 
  * File:   main.cpp
- * Author: Dr Mark E. Lehr
+ * Author: Bryan Gomez
  * Created on January 16, 2018, 12:45 PM
  * Purpose:  Fibonacci Sequence
  */

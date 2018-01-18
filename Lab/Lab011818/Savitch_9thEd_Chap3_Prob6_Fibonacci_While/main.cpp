@@ -20,14 +20,22 @@ using namespace std;
 int main(int argc, char** argv) {
     //Declare Variables
     unsigned int fi,fim1,fim2;
-    unsigned char nloops
+    unsigned char nLoops;
     
     //Initialize Variables
-    unsigned char cnt=0;
-    while(++cnt<=nloops
+    nLoops=9;
     fim1=1;
     fim2=1;
     cout<<fim2<<","<<fim1;
+    
+    //Process/Map inputs to outputs
+    unsigned char cnt=0;
+    while(++cnt<=nLoops){
+    fi=fim1+fim2;
+    cout<<","<<fi;
+    fim2=fim1;
+    fim1=fi;
+    }
 
     
     //Comparison of the ratio of Fibonacci to Golden Ratio
