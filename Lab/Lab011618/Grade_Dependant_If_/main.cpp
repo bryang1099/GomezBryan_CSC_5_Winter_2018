@@ -19,24 +19,25 @@ using namespace std;
 //Execution Begins Here
 int main(int argc, char** argv) {
     //Declare Variables
-    short score;
-    char grade;
-    
+    char vege,vegan,glutfre;
+    short rest;
     //Initialize Variables
-    cout<<"This program gives a grade"<<endl;
-    cout<<"Type in a score from 0 to 100" <<endl;
-    cin>>score;
+    cout<<"This program Gives you resturant options based of how your party"
+    " eats"<<endl;
+    cout<<"Is anyone in your party vegetarian?"<<endl;
+    cin>>vege;
+    
+    cout<<"Is anyone in your party vegan?"<<endl;
+    cin>>vegan;
+    
+    cout<<"Is anyone in your party gluten-free?"<<endl;
+    cin>>glutfre;
     
     //Process/Map inputs to outputs
-    if(score<0)       grade='I';
-    else if(score>100)grade='I';
-    else if(score>=90)grade='A';
-    else if(score>=80)grade='B';
-    else if(score>=70)grade='C';
-    else if(score>=60)grade='D';
-    else  grade='F';
+    if(vege=='y')       rest='k';
+
     //Output data
-    cout<<"your score ="<<score<<" and your grade = "<<grade<<endl;
+    cout<<rest<<endl;
     //Exit stage right;
     return 0;
 }

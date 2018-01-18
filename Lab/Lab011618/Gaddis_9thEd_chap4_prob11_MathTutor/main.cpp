@@ -36,7 +36,7 @@ int main(int argc, char** argv) {
     //Output data
     cout<<"test your addition skills, Solve the following"<<endl;
     cout<<setw(5)<<op1<<endl;
-    cout<<"+ "<<setw(3)>>op2<<endl;
+    cout<<"+ "<<setw(3)<<op2<<endl;
     cout<<"-----"<<endl<<(result>1000?" ":"  ");
     cin>>answer;
     cout<<(result==answer?"Correct":"Incorrect")<<endl;
